@@ -1,5 +1,6 @@
 # spring-cloud
-spring-cloud-demo
+spring-cloud-demos
+
 
 
 
