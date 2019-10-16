@@ -1,0 +1,20 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
+  instance:
+    hostname: localhost
+    status-page-url: http://localhost:8093/feign?token=2019
+server:
+  port: 8093
+spring:
+  application:
+    name: spc.liangzai.zuul
+zuul:
+  routes:
+    api-a:
+      path: /ribbon/**
+      serviceId: spc.liangzai.ribbon
+    api-b:
+      path: /feign/**
+      serviceId: spc.liangzai.feign
