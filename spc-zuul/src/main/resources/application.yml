@@ -1,10 +1,10 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8081/eureka/
+      defaultZone: http://localhost:8080/eureka/
   instance:
     hostname: localhost
-    status-page-url: http://localhost:8093/feign?token=2019
+    status-page-url: http://localhost:${server.port}/feign?token=2019
 server:
   port: 8093
 spring:
