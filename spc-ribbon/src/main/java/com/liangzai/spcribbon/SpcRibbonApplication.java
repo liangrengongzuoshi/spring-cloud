@@ -51,6 +51,8 @@ public class SpcRibbonApplication {
      *
      * 3.刷新步骤0页面
      *
+     * 4.不断刷新2步骤，即可看到3页面图表变更
+     *
      */
     @Bean
     public ServletRegistrationBean getServlet() {
