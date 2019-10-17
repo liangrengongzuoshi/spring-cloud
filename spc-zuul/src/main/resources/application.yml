@@ -10,6 +10,8 @@ server:
 spring:
   application:
     name: spc.liangzai.zuul
+  zipkin:
+      base-url: http://47.104.94.13:8065
 zuul:
   routes:
     api-a:
@@ -18,8 +20,3 @@ zuul:
     api-b:
       path: /feign/**
       serviceId: spc.liangzai.feign
-
-# zipkin-serve地址
-spring:
-  zipkin:
-    base-url: http://47.104.94.13:8065
