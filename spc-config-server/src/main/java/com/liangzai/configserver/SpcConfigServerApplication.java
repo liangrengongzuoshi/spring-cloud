@@ -20,6 +20,8 @@ public class SpcConfigServerApplication {
      *
      * http://localhost:8070/config.client.message/dev
      *
+     * # rabbit-mq,spring-cloud-bus
+     * http://localhost:8070/actuator/bus-refresh
      */
     public static void main(String[] args) {
         SpringApplication.run(SpcConfigServerApplication.class, args);
