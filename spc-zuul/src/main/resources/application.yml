@@ -12,6 +12,9 @@ spring:
     name: spc.liangzai.zuul
   zipkin:
       base-url: http://47.104.94.13:8065
+  sleuth:
+      sampler:
+        probability: 1.0
 zuul:
   routes:
     api-a:
