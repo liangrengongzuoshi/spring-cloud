@@ -18,3 +18,8 @@ zuul:
     api-b:
       path: /feign/**
       serviceId: spc.liangzai.feign
+
+# zipkin-serve地址
+spring:
+  zipkin:
+    base-url: http://47.104.94.13:8065
