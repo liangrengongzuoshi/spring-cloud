@@ -44,7 +44,7 @@ public class SpcRibbonApplication {
      * 1.依次输入：
      * http://localhost:8091/hystrix.stream
      * 2000（Delay:ms）
-     * miya（title）
+     * ribbon（title）
      *
      * 2.访问：
      * http://localhost:8091
