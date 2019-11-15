@@ -10,12 +10,6 @@ import org.springframework.amqp.support.converter.SimpleMessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * Amqp配置文件
- * @author yinzhen01@chinatopcredit.com
- * @date 2018年1月2日
- * @version V1.0
- */
 @Configuration
 public class AmqpConfig {
 
